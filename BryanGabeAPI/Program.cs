@@ -1,4 +1,5 @@
 ﻿using BryanGabeDAL.Models;
+using BryanGabeDAL.Repositories;
 
 namespace BryanGabeAPI;
 
@@ -12,6 +13,7 @@ public class Program
 
         builder.Services.AddControllers();
         builder.Services.AddScoped<ChaosSoftwareContext>();
+        builder.Services.AddScoped<AdminRepository>();
 
         var app = builder.Build();
 
