@@ -1,0 +1,14 @@
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/bin/Debug/net6.0/BryanGabeDAL.deps.json
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/bin/Debug/net6.0/BryanGabeDAL.runtimeconfig.json
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/bin/Debug/net6.0/BryanGabeDAL.dll
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/bin/Debug/net6.0/BryanGabeDAL.pdb
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/BryanGabeDAL.csproj.AssemblyReference.cache
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/BryanGabeDAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/BryanGabeDAL.AssemblyInfoInputs.cache
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/BryanGabeDAL.AssemblyInfo.cs
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/BryanGabeDAL.csproj.CoreCompileInputs.cache
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/BryanGabeDAL.dll
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/refint/BryanGabeDAL.dll
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/BryanGabeDAL.pdb
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/BryanGabeDAL.genruntimeconfig.cache
+/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/obj/Debug/net6.0/ref/BryanGabeDAL.dll
