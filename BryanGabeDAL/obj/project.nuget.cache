@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LE6X91O3aGKIGrAkQMD+Emzz1KL1wFuScEQT0GVQJJTIU2sLSeAdFdIEdqriZ7xvXXVya6P4XpjGx3koJ++Ocg==",
+  "dgSpecHash": "OUVxGBxlOk42nGQfReDBseDg+8qN4G4HDO5gXZDubcER2FLUfDiu5RnWBCTETjXe7cyQ1NrUkjrfhTvusUfjbA==",
   "success": true,
-  "projectFilePath": "/Users/bryangabe/Documents/GithubProjects/BryanGabe-Backend/BryanGabeDAL/BryanGabeDAL.csproj",
+  "projectFilePath": "/Users/bryangabe/Developer/C#/BryanGabe-Backend/BryanGabeDAL/BryanGabeDAL.csproj",
   "expectedPackageFiles": [
     "/Users/bryangabe/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/bryangabe/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

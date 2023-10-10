@@ -22,6 +22,9 @@ namespace BryanGabeDAL.Models
         public virtual DbSet<Product> Products { get; set; } = null!;
         public virtual DbSet<Role> Roles { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
+        public virtual DbSet<LoginUser> LoginUsers {get; set; } = null!;
+        public virtual DbSet<RegisterUser> RegisterUsers {get; set; } = null!;
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

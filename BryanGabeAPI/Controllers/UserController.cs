@@ -19,36 +19,57 @@ namespace BryanGabeAPI.Controllers
             _repo = repo;
         }
 
-        // GET: /<controller>/
-        public IActionResult Index()
+        [HttpGet]
+        public JsonResult GetActiveUsers()
         {
-            return View();
+            List<BryanGabeDAL.Models.User> users = new List<BryanGabeDAL.Models.User>();
+            users = _repo.GetActiveUsers();
+            return Json(users);
         }
 
         [HttpPost]
         public bool AddUser(User user)
         {
             bool result = false;
-            BryanGabeDAL.Models.User userObj = new ()
+
+            if(ModelState.IsValid)
             {
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                DisplayName = user.DisplayName,
-                Email = user.Email,
-                HashPassword = user.HashPassword,
-                Dob = user.Dob,
-                LastLogin = user.LastLogin,
-                DateCreated = user.DateCreated,
-                RoleId = user.RoleId,
-                Deleted = user.Deleted
-            };
+                BryanGabeDAL.Models.RegisterUser userObj = new()
+                {
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    DisplayName = user.DisplayName,
+                    Email = user.Email,
+                    Password = user.Password,
+                    Dob = user.Dob,
+                    RoleId = user.RoleId,
+                };
+                try
+                {
+                    _repo.AddUser(userObj);
+                    result = true;
+                }
+                catch
+                {
+                    result = false;
+                }
+            }
+            
+            return result;
+        }
+
+        [HttpPost]
+        public bool DeleteUser(int id)
+        {
+            bool result = false;
             try
             {
-                _repo.AddUser(userObj);
+                _repo.DeleteUser(id);
                 result = true;
-            } catch
+            }
+            catch
             {
-                Console.WriteLine("ERRRR");
+                result = false;
             }
             return result;
         }
